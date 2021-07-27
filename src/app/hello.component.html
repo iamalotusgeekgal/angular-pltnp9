@@ -1,0 +1,5 @@
+<div class *ngFor="let joke of jokes">
+  <h4>{{joke.title}}</h4>
+  <p>{{joke.content}}</p>
+  <p [hidden]="joke.hide">{{joke.creator}}</p>
+</div>
